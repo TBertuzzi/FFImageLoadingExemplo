@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:local="clr-namespace:FFImageLoadingExemplo" x:Class="FFImageLoadingExemplo.FFImageLoadingExemploPage"
+     xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms" Padding="0,20,0,0">
+
+        <ContentPage.Content>
+        <StackLayout>
+
+              <Label Text="Polly the guinea pig" VerticalOptions="Center" HorizontalOptions="Center" />
+
+      <ffimageloading:CachedImage 
+                                Source="https://scontent.cdninstagram.com/vp/482fdc1fc2d44084910ced2add0efc11/5B053187/t51.2885-15/s640x640/sh0.08/e35/19050192_1383815915039938_4285040746110648320_n.jpg"
+                                CacheDuration="7" >
+      </ffimageloading:CachedImage>
+
+
+
+
+              <Label Text="Snes mini" VerticalOptions="Center" HorizontalOptions="Center" />
+
+      <ffimageloading:CachedImage  
+                                Source="https://scontent.cdninstagram.com/vp/eecdad6b4bd1d5d1a79adac1a764e975/5AEF88E0/t51.2885-15/sh0.08/e35/p640x640/23279283_395818667501050_1615439991477895168_n.jpg"
+                                CacheDuration="7">
+      </ffimageloading:CachedImage>
+
+        </StackLayout>
+
+      </ContentPage.Content>
+</ContentPage>
